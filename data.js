@@ -132,8 +132,8 @@ const appsData = [
     name: "Vesktop Discord mod",
     description: "Unofficial mod for the Discord desktop app that adds features like themes, plugins, and enhanced privacy controls.",
     safety: "safe", openSource: true,
-    sourceUrl: "https://github.com/Vesktop/Vesktop",
-    downloadUrl: "https://github.com/Vesktop/Vesktop/releases",
+    sourceUrl: "hhttps://github.com/Vencord/Vesktop",
+    downloadUrl: "https://vesktop.dev/install/",
     lastChecked: "2026-06-05", reportEmail: "contact@safecatalog.one", notes: "Using modded clients may violate Discord's Terms of Service. Use at your own risk. Always download from the official GitHub repo and verify the installer before running."
   },
 
