@@ -1,0 +1,203 @@
+<!DOCTYPE html>
+<html lang="en" class="dark">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Terms of Service — SafeCatalog</title>
+  <script src="https://cdn.tailwindcss.com"></script>
+  <link href="https://fonts.googleapis.com/css2?family=JetBrains+Mono:wght@400;500;700&family=DM+Sans:opsz,wght@9..40,300;9..40,400;9..40,500;9..40,600&display=swap" rel="stylesheet" />
+  <script>
+    tailwind.config = { darkMode: 'class', theme: { extend: {
+      fontFamily: { mono: ['"JetBrains Mono"', 'monospace'], sans: ['"DM Sans"', 'sans-serif'] }
+    }}}
+  </script>
+  <style>
+    body { font-family:'DM Sans',sans-serif; background:#0a0b0d; color:#e2e8f0; min-height:100vh; transition:background .3s,color .3s; }
+    html.light body { background:#f1f5f9; color:#0f172a; }
+    .grid-bg {
+      background-image: linear-gradient(rgba(59,130,246,.04) 1px,transparent 1px), linear-gradient(90deg,rgba(59,130,246,.04) 1px,transparent 1px);
+      background-size:40px 40px;
+    }
+    html.light .grid-bg {
+      background-image: linear-gradient(rgba(59,130,246,.07) 1px,transparent 1px), linear-gradient(90deg,rgba(59,130,246,.07) 1px,transparent 1px);
+    }
+    .navbar { background:rgba(10,11,13,.85); backdrop-filter:blur(20px); border-bottom:1px solid #22272f; }
+    html.light .navbar { background:rgba(241,245,249,.9); border-bottom:1px solid #e2e8f0; }
+    .glass-card { background:rgba(17,19,24,.85); border:1px solid #22272f; backdrop-filter:blur(12px); }
+    html.light .glass-card { background:rgba(255,255,255,.88); border:1px solid #e2e8f0; }
+    .toggle-track { width:44px;height:24px;background:#1e293b;border-radius:999px;border:1px solid #334155;position:relative;cursor:pointer;transition:background .25s; }
+    html.light .toggle-track { background:#bfdbfe;border-color:#93c5fd; }
+    .toggle-thumb { width:18px;height:18px;background:#64748b;border-radius:50%;position:absolute;top:2px;left:2px;transition:transform .25s cubic-bezier(.34,1.56,.64,1),background .25s; }
+    html.light .toggle-thumb { background:#3b82f6;transform:translateX(20px); }
+    footer { border-top:1px solid #22272f; color:#475569; }
+    html.light footer { border-top-color:#e2e8f0; }
+    /* Doc styles */
+    .doc h2 { font-family:'JetBrains Mono',monospace; font-size:1rem; font-weight:700; letter-spacing:.04em; color:#93c5fd; text-transform:uppercase; margin:2.5rem 0 .75rem; padding-bottom:.5rem; border-bottom:1px solid #22272f; }
+    html.light .doc h2 { color:#1d4ed8; border-bottom-color:#e2e8f0; }
+    .doc h3 { font-weight:600; font-size:.95rem; margin:1.5rem 0 .4rem; color:#e2e8f0; }
+    html.light .doc h3 { color:#0f172a; }
+    .doc p { color:#94a3b8; line-height:1.8; margin-bottom:1rem; font-size:.9375rem; }
+    html.light .doc p { color:#475569; }
+    .doc ul { color:#94a3b8; line-height:1.8; margin-bottom:1rem; padding-left:1.5rem; font-size:.9375rem; list-style:disc; }
+    html.light .doc ul { color:#475569; }
+    .doc ul li { margin-bottom:.35rem; }
+    .doc a { color:#60a5fa; text-decoration:underline; text-underline-offset:3px; }
+    .doc a:hover { color:#93c5fd; }
+    .doc strong { color:#cbd5e1; }
+    html.light .doc strong { color:#1e293b; }
+    .highlight-box { background:rgba(30,58,138,.2); border:1px solid rgba(59,130,246,.25); border-radius:10px; padding:1rem 1.25rem; margin-bottom:1.5rem; }
+    html.light .highlight-box { background:#eff6ff; border-color:#bfdbfe; }
+    .highlight-box p { color:#93c5fd; margin-bottom:0; }
+    html.light .highlight-box p { color:#1d4ed8; }
+    .warn-box { background:rgba(69,26,3,.4); border:1px solid rgba(245,158,11,.25); border-radius:10px; padding:1rem 1.25rem; margin-bottom:1.5rem; }
+    html.light .warn-box { background:#fef9c3; border-color:#fcd34d; }
+    .warn-box p { color:#fcd34d; margin-bottom:0; }
+    html.light .warn-box p { color:#92400e; }
+    ::-webkit-scrollbar{width:6px} ::-webkit-scrollbar-track{background:transparent} ::-webkit-scrollbar-thumb{background:#334155;border-radius:3px}
+    html.light ::-webkit-scrollbar-thumb{background:#cbd5e1}
+  </style>
+</head>
+<body class="grid-bg">
+
+<!-- NAVBAR -->
+<nav class="navbar sticky top-0 z-50">
+  <div class="max-w-4xl mx-auto px-4 sm:px-6 h-14 flex items-center justify-between gap-4">
+    <a href="index.html" class="flex items-center gap-2.5">
+      <div class="w-7 h-7 rounded-lg bg-blue-600 flex items-center justify-center">
+        <svg width="16" height="16" viewBox="0 0 16 16" fill="none">
+          <path d="M8 1L14 4V8C14 11.314 11.314 14 8 15C4.686 14 2 11.314 2 8V4L8 1Z" stroke="white" stroke-width="1.5" stroke-linejoin="round"/>
+          <path d="M5.5 8L7 9.5L10.5 6" stroke="white" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
+        </svg>
+      </div>
+      <span style="font-family:'JetBrains Mono',monospace" class="font-bold text-sm tracking-tight">SafeCatalog</span>
+    </a>
+    <div class="flex items-center gap-4">
+      <a href="index.html" style="font-family:'JetBrains Mono',monospace" class="text-xs text-slate-500 hover:text-slate-300 transition-colors">← Back to catalog</a>
+      <button id="themeToggle" aria-label="Toggle theme">
+        <div class="toggle-track"><div class="toggle-thumb"></div></div>
+      </button>
+    </div>
+  </div>
+</nav>
+
+<!-- HERO -->
+<div class="max-w-4xl mx-auto px-4 sm:px-6 pt-14 pb-8">
+  <div class="inline-flex items-center gap-2 mb-4 px-3 py-1.5 rounded-full border border-blue-900/60 bg-blue-950/40 text-blue-400 text-xs tracking-wider" style="font-family:'JetBrains Mono',monospace">
+    <svg class="w-3.5 h-3.5" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9 12h6m-6 4h6m2 5H7a2 2 0 01-2-2V5a2 2 0 012-2h5.586a1 1 0 01.707.293l5.414 5.414a1 1 0 01.293.707V19a2 2 0 01-2 2z"/></svg>
+    LEGAL DOCUMENT
+  </div>
+  <h1 style="font-family:'JetBrains Mono',monospace" class="font-bold text-3xl sm:text-4xl mb-2">Terms of Service</h1>
+  <p class="text-slate-500 text-sm" style="font-family:'JetBrains Mono',monospace">Last updated: <span class="text-slate-400">June 5, 2026</span></p>
+</div>
+
+<!-- CONTENT -->
+<main class="max-w-4xl mx-auto px-4 sm:px-6 pb-20">
+  <div class="glass-card rounded-2xl p-7 sm:p-10 doc">
+
+    <div class="highlight-box">
+      <p><strong>TL;DR:</strong> SafeCatalog is an informational catalog only. We do not host, distribute, or endorse any software. You are solely responsible for what you choose to download and install. Use the information here at your own risk.</p>
+    </div>
+
+    <h2>1. Acceptance of Terms</h2>
+    <p>By accessing or using SafeCatalog (the "Site"), you agree to be bound by these Terms of Service ("Terms"). If you do not agree to these Terms, please do not use the Site.</p>
+    <p>We reserve the right to update these Terms at any time. Continued use of the Site after changes are posted constitutes your acceptance of the revised Terms.</p>
+
+    <h2>2. What SafeCatalog Is</h2>
+    <p>SafeCatalog is a community-maintained, informational reference catalog. It lists applications and modifications ("mods") with safety ratings and metadata to help users make informed decisions.</p>
+    <p>SafeCatalog is <strong>not</strong>:</p>
+    <ul>
+      <li>A software hosting or distribution platform</li>
+      <li>An endorsement or recommendation of any listed software</li>
+      <li>A security auditing firm — ratings reflect community research, not professional security assessments</li>
+      <li>Affiliated with any of the software developers or projects listed</li>
+    </ul>
+
+    <h2>3. Informational Purpose Only</h2>
+    <p>All content on SafeCatalog is provided for <strong>informational purposes only</strong>. Safety ratings, descriptions, and dates represent the best available community knowledge at the time of the last review and may be outdated, incomplete, or incorrect.</p>
+    <p>You should always conduct your own research before downloading or installing any software. A "Safe" rating does not guarantee that software is free from vulnerabilities, malware, or other risks.</p>
+
+    <h2>4. Third-Party Software & Links</h2>
+    <p>SafeCatalog links to third-party websites and software projects. We have no control over the content, availability, or safety of those external resources. Clicking a download link takes you away from SafeCatalog — the third-party site's own terms and conditions apply from that point.</p>
+    <p>We are not responsible for any harm, data loss, legal liability, or other consequence arising from software you obtain through links listed on this Site.</p>
+
+    <h2>5. Modified Software ("Mods") & Third-Party Apps</h2>
+    <p>SafeCatalog may list third-party applications and modified software ("mods") created by the community. We do not host these files, nor do we encourage or endorse any violation of the original software's End-User License Agreement (EULA).</p>
+    <div class="warn-box">
+      <p>⚠ <strong>Modifying software carries inherent risks, including but not limited to:</strong></p>
+      <ul style="color:inherit; margin-top:0.5rem; margin-bottom:0; font-weight: 500;">
+        <li>Account bans or suspensions by the original developers</li>
+        <li>Loss of software warranty or official support</li>
+        <li>System instability or security vulnerabilities</li>
+      </ul>
+    </div>
+    <p>By accessing information about modified software on this Site, you acknowledge that you are solely responsible for compliance with any terms set by the original software creators. SafeCatalog bears no liability for your decision to download, install, or use any listed software.</p>
+
+    <h2>6. Disclaimer of Warranties</h2>
+    <p>The Site and all content are provided <strong>"as is"</strong> and <strong>"as available"</strong>, without warranties of any kind, express or implied, including but not limited to warranties of merchantability, fitness for a particular purpose, accuracy, or non-infringement.</p>
+    <p>We do not warrant that:</p>
+    <ul>
+      <li>The Site will be available at all times or free from errors</li>
+      <li>Safety ratings are accurate, current, or complete</li>
+      <li>Any software listed will function as described or be free from malware</li>
+    </ul>
+
+    <h2>7. Limitation of Liability</h2>
+    <p>To the fullest extent permitted by applicable law, SafeCatalog and its contributors shall not be liable for any indirect, incidental, special, consequential, or punitive damages arising from your use of or reliance on the Site or any software linked from it — including but not limited to data loss, system damage, financial loss, or legal liability.</p>
+
+    <h2>8. Acceptable Use</h2>
+    <p>You agree not to use the Site to:</p>
+    <ul>
+      <li>Scrape or harvest content in a manner that disrupts the Site or GitHub Pages infrastructure</li>
+      <li>Misrepresent safety ratings or spread misinformation about listed software</li>
+      <li>Engage in any activity that violates applicable local, national, or international law</li>
+    </ul>
+
+    <h2>9. Reporting & Contributions</h2>
+    <p>Safety ratings and catalog entries are maintained by community contributors. If you believe an entry is incorrect, outdated, or missing, you may report it using the "Report" button on the relevant card, which opens a pre-filled email to our team.</p>
+    <p>By submitting a report, you grant us permission to use the information provided to update the catalog. We are not obligated to act on any report.</p>
+
+    <h2>10. Intellectual Property</h2>
+    <p>The SafeCatalog codebase (HTML, CSS, JavaScript) is made available under the MIT License via its GitHub repository. App names, logos, and trademarks referenced in the catalog remain the property of their respective owners. Their inclusion is solely for informational identification purposes and does not imply any affiliation or endorsement.</p>
+
+    <h2>11. Governing Law and Jurisdiction</h2>
+    <p>These Terms shall be governed by and construed in accordance with the laws of the Czech Republic, without regard to its conflict of law provisions. Any disputes, claims, or legal proceedings arising from or relating to these Terms or your use of the Site shall be subject to the exclusive jurisdiction of the competent courts located in the Czech Republic.</p>
+
+    <h2>12. Contact</h2>
+    <p>If you have questions about these Terms, please contact us at <a href="mailto:tady.tvuj@email.cz">[TVŮJ E-MAIL ZDE]</a>.</p>
+
+  </div>
+
+  <!-- Nav links -->
+  <div class="flex flex-wrap items-center justify-between gap-4 mt-6 text-xs text-slate-500" style="font-family:'JetBrains Mono',monospace">
+    <a href="privacy.html" class="hover:text-slate-300 transition-colors">← Privacy Policy</a>
+    <a href="index.html" class="hover:text-slate-300 transition-colors">Back to catalog →</a>
+  </div>
+</main>
+
+<footer class="py-8 px-4 sm:px-6">
+  <div class="max-w-4xl mx-auto flex flex-col sm:flex-row items-center justify-between gap-4 text-xs" style="font-family:'JetBrains Mono',monospace">
+    <div class="flex items-center gap-2 text-slate-500">
+      <svg class="w-3.5 h-3.5 text-blue-500" fill="currentColor" viewBox="0 0 16 16"><path d="M8 1L14 4V8C14 11.314 11.314 14 8 15C4.686 14 2 11.314 2 8V4L8 1Z"/></svg>
+      SafeCatalog — 100% client-side · no API keys · no backend
+    </div>
+    <div class="flex gap-6 text-slate-600">
+      <a href="index.html" class="hover:text-slate-400 transition-colors">Catalog</a>
+      <a href="privacy.html" class="hover:text-slate-400 transition-colors">Privacy Policy</a>
+      <a href="tos.html" class="text-blue-500">Terms of Service</a>
+    </div>
+  </div>
+</footer>
+
+<script>
+  function applyTheme(dark) {
+    document.documentElement.classList.toggle('dark', dark);
+    document.documentElement.classList.toggle('light', !dark);
+    localStorage.setItem('theme', dark ? 'dark' : 'light');
+  }
+  const saved = localStorage.getItem('theme');
+  applyTheme(saved ? saved === 'dark' : window.matchMedia('(prefers-color-scheme: dark)').matches);
+  document.getElementById('themeToggle').addEventListener('click', () =>
+    applyTheme(!document.documentElement.classList.contains('dark')));
+</script>
+</body>
+</html>
