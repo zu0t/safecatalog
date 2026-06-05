@@ -49,7 +49,7 @@ To run this project locally, you don't need Node.js, npm, or any build tools.
 
 **SafeCatalog is an informational reference catalog only.** We do not host, distribute, or endorse any of the software listed. Modifying software or using third-party patches carries inherent risks, including malware, system instability, and account bans. 
 
-**Always conduct your own research and use the information provided at your own risk.** Please refer to our [Terms of Service](tos.html) for more details.
+**Always conduct your own research and use the information provided at your own risk.** Please refer to our [Terms of Service](http://safecatalog/tos.html) for more details.
 
 ## 📄 License
 
