@@ -8,7 +8,7 @@ const appsData = [
     safety: "safe", openSource: true,
     sourceUrl: "https://github.com/ImranR98/Obtainium",
     downloadUrl: "https://github.com/ImranR98/Obtainium/releases",
-    lastChecked: "2026-06-05", reportEmail: "report@safecatalog.example", notes: ""
+    lastChecked: "2026-06-05", reportEmail: "contact@safecatalog.one", notes: ""
   },
   {
     id: 2, platform: "Android", type: "original",
@@ -17,7 +17,7 @@ const appsData = [
     safety: "safe", openSource: true,
     sourceUrl: "https://gitlab.com/fdroid/fdroidclient",
     downloadUrl: "https://f-droid.org/",
-    lastChecked: "2026-06-05", reportEmail: "report@safecatalog.example", notes: ""
+    lastChecked: "2026-06-05", reportEmail: "contact@safecatalog.one", notes: ""
   },
 
   /* ── ANDROID · MODDED ───────────────────────────────── */
@@ -28,7 +28,7 @@ const appsData = [
     safety: "untested", openSource: true,
     sourceUrl: "https://github.com/ReVanced/revanced-manager",
     downloadUrl: "https://github.com/ReVanced/revanced-manager/releases",
-    lastChecked: "2026-06-05", reportEmail: "report@safecatalog.example",
+    lastChecked: "2026-06-05", reportEmail: "contact@safecatalog.one",
     notes: "Always verify the APK signature before installing."
   },
   {
@@ -37,7 +37,7 @@ const appsData = [
     description: "Unofficial distributor of modified APKs. Frequent reports of malware, adware, and unauthorized permission requests baked into uploaded files.",
     safety: "danger", openSource: false,
     sourceUrl: "", downloadUrl: "#",
-    lastChecked: "2026-06-05", reportEmail: "report@safecatalog.example",
+    lastChecked: "2026-06-05", reportEmail: "contact@safecatalog.one",
     notes: "⚠ Malicious code detected in ~40 % of analyzed APKs. Avoid."
   },
   {
@@ -46,7 +46,7 @@ const appsData = [
     description: "Unofficial modded Instagram APK with features like story downloading, ad removal, and UI tweaks.",
     safety: "safe", openSource: false,
     sourceUrl: "", downloadUrl: "https://t.me/Honistagram",
-    lastChecked: "2026-06-05", reportEmail: "report@safecatalog.example",
+    lastChecked: "2026-06-05", reportEmail: "contact@safecatalog.one",
     notes: "Subscription required for ad-blocking feature. Never purchase this subscription, there have been multiple reports of accounts getting hacked after providing your phone number. Mod is generaly safe. Always download from the official XDA thread and verify the APK signature before installing."
   },
   {
@@ -55,7 +55,7 @@ const appsData = [
     description: "Unofficial modded Instagram APK with features like story downloading, ad removal, and UI tweaks.",
     safety: "safe", openSource: false,
     sourceUrl: "", downloadUrl: "https://thedise.me/",
-    lastChecked: "2026-06-05", reportEmail: "report@safecatalog.example",
+    lastChecked: "2026-06-05", reportEmail: "contact@safecatalog.one",
     notes: "Outdated mod with no updates since 2022. Mod is generaly safe. Always download from the official XDA thread and verify the APK signature before installing. Download link may not be working (outdated project), avoid downloading from unverified sources."
   },
   {
@@ -64,7 +64,7 @@ const appsData = [
     description: "Unofficial modded Snapchat APK with features like snapchat plus, ad removal, and UI tweaks.",
     safety: "safe", openSource: true,
     sourceUrl: "https://github.com/curious-freak/Purrfect", downloadUrl: "https://t.me/+KiYxSWgQmNhjNjc1",
-    lastChecked: "2026-06-05", reportEmail: "report@safecatalog.example",
+    lastChecked: "2026-06-05", reportEmail: "contact@safecatalog.one",
     notes: "Safe mod for snapchat. They also offer mods for other aplications like instagram. Always download from the official XDA thread and verify the APK signature before installing. Download link may not be working (outdated project), avoid downloading from unverified sources."
   },
   {
@@ -73,7 +73,7 @@ const appsData = [
     description: "Unofficial modded Discord APK with features like themes and plugins.",
     safety: "safe", openSource: true,
     sourceUrl: "https://github.com/revenge-mod", downloadUrl: "https://github.com/revenge-mod/revenge-bundle?tab=readme-ov-file#%EF%B8%8F-download",
-    lastChecked: "2026-06-05", reportEmail: "report@safecatalog.example",
+    lastChecked: "2026-06-05", reportEmail: "contact@safecatalog.one",
     notes: "Safe mod for discord. Always download from the official XDA thread and verify the APK signature before installing. Download link may not be working (outdated project), avoid downloading from unverified sources."
   },
 
@@ -84,7 +84,7 @@ const appsData = [
     description: "Unofficial cracked builds of CapCut removing ads and enabling premium features. No central distributor — quality and safety vary wildly between sources.",
     safety: "safe", openSource: false,
     sourceUrl: "", downloadUrl: "https://liteapks.com/capcut-video-editor.html",
-    lastChecked: "2026-06-05", reportEmail: "report@safecatalog.example",
+    lastChecked: "2026-06-05", reportEmail: "contact@safecatalog.one",
     notes: "source is auditable, legal risk remains. Use at your own discretion."
   },
 
@@ -96,7 +96,7 @@ const appsData = [
     safety: "safe", openSource: true,
     sourceUrl: "https://github.com/microsoft/winget-cli",
     downloadUrl: "https://apps.microsoft.com/detail/9NBLGGH4NNS1",
-    lastChecked: "2026-06-05", reportEmail: "report@safecatalog.example", notes: ""
+    lastChecked: "2026-06-05", reportEmail: "contact@safecatalog.one", notes: ""
   },
   {
     id: 7, platform: "Windows", type: "original",
@@ -105,7 +105,7 @@ const appsData = [
     safety: "safe", openSource: true,
     sourceUrl: "https://github.com/marticliment/UniGetUI",
     downloadUrl: "https://github.com/marticliment/UniGetUI/releases",
-    lastChecked: "2026-06-05", reportEmail: "report@safecatalog.example", notes: ""
+    lastChecked: "2026-06-05", reportEmail: "contact@safecatalog.one", notes: ""
   },
 
   /* ── WINDOWS · MODDED ───────────────────────────────── */
@@ -116,7 +116,7 @@ const appsData = [
     safety: "safe", openSource: false,
     sourceUrl: "",
     downloadUrl: "https://winaero.com/winaero-tweaker/",
-    lastChecked: "2026-06-05", reportEmail: "report@safecatalog.example", notes: ""
+    lastChecked: "2026-06-05", reportEmail: "contact@safecatalog.one", notes: ""
   },
   {
     id: 9, platform: "Windows", type: "modded",
@@ -125,7 +125,7 @@ const appsData = [
     safety: "safe", openSource: true,
     sourceUrl: "https://github.com/Open-Shell/Open-Shell-Menu",
     downloadUrl: "https://github.com/Open-Shell/Open-Shell-Menu/releases",
-    lastChecked: "2026-06-05", reportEmail: "report@safecatalog.example", notes: ""
+    lastChecked: "2026-06-05", reportEmail: "contact@safecatalog.one", notes: ""
   },
   {
     id: 19, platform: "Windows", type: "modded",
@@ -134,7 +134,7 @@ const appsData = [
     safety: "safe", openSource: true,
     sourceUrl: "https://github.com/Vesktop/Vesktop",
     downloadUrl: "https://github.com/Vesktop/Vesktop/releases",
-    lastChecked: "2026-06-05", reportEmail: "report@safecatalog.example", notes: "Using modded clients may violate Discord's Terms of Service. Use at your own risk. Always download from the official GitHub repo and verify the installer before running."
+    lastChecked: "2026-06-05", reportEmail: "contact@safecatalog.one", notes: "Using modded clients may violate Discord's Terms of Service. Use at your own risk. Always download from the official GitHub repo and verify the installer before running."
   },
 
   /* ── WINDOWS · CRACKED ──────────────────────────────── */
@@ -144,7 +144,7 @@ const appsData = [
     description: "Illicit Windows and Office activator. Hundreds of infected clones circulate online containing ransomware, trojans, and crypto miners. Avoid entirely.",
     safety: "danger", openSource: false,
     sourceUrl: "", downloadUrl: "#",
-    lastChecked: "2026-06-05", reportEmail: "report@safecatalog.example",
+    lastChecked: "2026-06-05", reportEmail: "contact@safecatalog.one",
     notes: "⚠ Violates Microsoft EULA. Hundreds of recorded malware infections per month."
   },
   {
@@ -154,7 +154,7 @@ const appsData = [
     safety: "untested", openSource: true,
     sourceUrl: "https://github.com/massgravel/Microsoft-Activation-Scripts",
     downloadUrl: "https://github.com/massgravel/Microsoft-Activation-Scripts",
-    lastChecked: "2026-06-05", reportEmail: "report@safecatalog.example",
+    lastChecked: "2026-06-05", reportEmail: "contact@safecatalog.one",
     notes: "Source is auditable, but legal risk remains. Use at your own discretion."
   },
   {
@@ -164,7 +164,7 @@ const appsData = [
     safety: "safe", openSource: false,
     sourceUrl: "https://monarchforums.cc/index.php?threads/vegas-22-0-build-122-crack.310/",
     downloadUrl: "https://monarchforums.cc/index.php?threads/vegas-22-0-build-122-crack.310/",
-    lastChecked: "2026-06-05", reportEmail: "report@safecatalog.example",
+    lastChecked: "2026-06-05", reportEmail: "contact@safecatalog.one",
     notes: "Eintim is very known in the modding community. Source is auditable, but legal risk remains. Use at your own discretion."
   },
 
@@ -177,7 +177,7 @@ const appsData = [
     safety: "safe", openSource: true,
     sourceUrl: "https://github.com/flatpak/flatpak",
     downloadUrl: "https://flatpak.org/setup/",
-    lastChecked: "2026-06-05", reportEmail: "report@safecatalog.example", notes: ""
+    lastChecked: "2026-06-05", reportEmail: "contact@safecatalog.one", notes: ""
   },
   {
     id: 13, platform: "Linux", type: "original",
@@ -186,7 +186,7 @@ const appsData = [
     safety: "safe", openSource: true,
     sourceUrl: "https://github.com/ventoy/Ventoy",
     downloadUrl: "https://www.ventoy.net/en/download.html",
-    lastChecked: "2026-06-05", reportEmail: "report@safecatalog.example", notes: ""
+    lastChecked: "2026-06-05", reportEmail: "contact@safecatalog.one", notes: ""
   },
 
   /* ── LINUX · MODDED ─────────────────────────────────── */
